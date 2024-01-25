@@ -1,6 +1,7 @@
 import path from "path";
 import { Configuration } from "webpack";
 import CopyWebpackPlugin from "copy-webpack-plugin";
+import ESLintPlugin from 'eslint-webpack-plugin';
 
 const config: Configuration = {
     mode:
@@ -29,7 +30,9 @@ const config: Configuration = {
     },
     plugins: [new CopyWebpackPlugin({
         patterns: [{ from: "public" }],
-    })],
+        }),
+        new ESLintPlugin()
+    ],
 };
 
 export default config;
