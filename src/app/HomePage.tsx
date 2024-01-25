@@ -1,5 +1,5 @@
 import React from 'react';
-import './HomePage.css';
+import 'src/app/HomePage.css';
 
 const GIF_URL =
   'https://ansarshome.files.wordpress.com/2021/09/d3464a4351fdf340ccb6bb37c281381a.gif?w=640';
