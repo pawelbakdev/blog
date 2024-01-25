@@ -1,11 +1,9 @@
-import Footer from '../components/footer/Footer';
+import HomePage from './HomePage';
 
 export default function App() {
   return (
     <main>
-      <p>App test 1234</p>
-
-      <Footer />
+      <HomePage />
     </main>
   );
 }
